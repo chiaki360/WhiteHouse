@@ -14,6 +14,7 @@
 		72EB705D234D9B5200C12F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EB705B234D9B5200C12F9A /* LaunchScreen.storyboard */; };
 		72EB7068234D9B5200C12F9A /* WhiteHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB7067234D9B5200C12F9A /* WhiteHouseTests.swift */; };
 		72EB7073234D9B5200C12F9A /* WhiteHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB7072234D9B5200C12F9A /* WhiteHouseUITests.swift */; };
+		72EB7081234DA40E00C12F9A /*  Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB7080234DA40E00C12F9A /*  Petition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		72EB706E234D9B5200C12F9A /* WhiteHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EB7072234D9B5200C12F9A /* WhiteHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteHouseUITests.swift; sourceTree = "<group>"; };
 		72EB7074234D9B5200C12F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72EB7080234DA40E00C12F9A /*  Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Petition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				72EB7052234D9B5000C12F9A /* AppDelegate.swift */,
 				72EB7054234D9B5000C12F9A /* ViewController.swift */,
+				72EB7080234DA40E00C12F9A /*  Petition.swift */,
 				72EB7056234D9B5000C12F9A /* Main.storyboard */,
 				72EB7059234D9B5200C12F9A /* Assets.xcassets */,
 				72EB705B234D9B5200C12F9A /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				72EB7055234D9B5000C12F9A /* ViewController.swift in Sources */,
 				72EB7053234D9B5000C12F9A /* AppDelegate.swift in Sources */,
+				72EB7081234DA40E00C12F9A /*  Petition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
