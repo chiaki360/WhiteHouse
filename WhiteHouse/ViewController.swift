@@ -13,8 +13,8 @@ class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // let urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
-        let urlString = "https://www.hackingwithswift.com/samples/petitions-1.json"
+         let urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
+        //let urlString = "https://www.hackingwithswift.com/samples/petitions-1.json"
         
         if let url = URL(string: urlString) {
             if let data = try? Data(contentsOf: url) {
@@ -43,6 +43,13 @@ class ViewController: UITableViewController {
             tableView.reloadData()
         }
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = DetailViewController()
+        vc.detailItem = petitions[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 
 
 

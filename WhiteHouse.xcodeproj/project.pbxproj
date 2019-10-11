@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7293D4EE235039F800EADDC7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7293D4ED235039F800EADDC7 /* DetailViewController.swift */; };
 		72EB7053234D9B5000C12F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB7052234D9B5000C12F9A /* AppDelegate.swift */; };
 		72EB7055234D9B5000C12F9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB7054234D9B5000C12F9A /* ViewController.swift */; };
 		72EB7058234D9B5000C12F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EB7056234D9B5000C12F9A /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7293D4ED235039F800EADDC7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		72EB704F234D9B5000C12F9A /* WhiteHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EB7052234D9B5000C12F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72EB7054234D9B5000C12F9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				72EB7052234D9B5000C12F9A /* AppDelegate.swift */,
 				72EB7054234D9B5000C12F9A /* ViewController.swift */,
+				7293D4ED235039F800EADDC7 /* DetailViewController.swift */,
 				72EB7080234DA40E00C12F9A /*  Petition.swift */,
 				72EB7056234D9B5000C12F9A /* Main.storyboard */,
 				72EB7059234D9B5200C12F9A /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				72EB7055234D9B5000C12F9A /* ViewController.swift in Sources */,
 				72EB7053234D9B5000C12F9A /* AppDelegate.swift in Sources */,
 				72EB7081234DA40E00C12F9A /*  Petition.swift in Sources */,
+				7293D4EE235039F800EADDC7 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A39RT5MTLA;
 				INFOPLIST_FILE = WhiteHouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A39RT5MTLA;
 				INFOPLIST_FILE = WhiteHouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
